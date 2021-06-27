@@ -128,7 +128,7 @@ header a {
   text-align: center;
   margin-bottom: 30px;
   margin-top: 100px;
-
+}
 .learm_more {
   background-color: #29323d;
   width: 100px;
@@ -198,7 +198,6 @@ header a {
   display: flex;
 }
 .class img {
-
   width: 40px;
   height: 40px;
   margin-top: 90px;
@@ -217,8 +216,14 @@ header a {
   margin-bottom: 40px;
   text-align: center;
 }
-
-  width: 20px;
-  height: 20px;
+.third {
+  display: flex;
+  flex-wrap: wrap;
 }
-
+.Emai {
+  display: flex;
+  flex-wrap: wrap;
+}
+.Message {
+  display: block;
+}
