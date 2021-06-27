@@ -123,6 +123,12 @@ header a {
 .product img {
   margin-left: 41px;
 }
+
+.plan {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 100px;
+
 .learm_more {
   background-color: #29323d;
   width: 100px;
@@ -174,6 +180,10 @@ header a {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+.sect p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 .footer-1 img {
   width: 20px;
   height: 20px;
@@ -188,6 +198,27 @@ header a {
   display: flex;
 }
 .class img {
+
+  width: 40px;
+  height: 40px;
+  margin-top: 90px;
+}
+.third p {
+  width: 25%;
+}
+.third input {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding: 10px;
+}
+.class-2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
   width: 20px;
   height: 20px;
 }
+
