@@ -3,7 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+main {
+  width: 100%;
+  max-width: 529px;
+  margin: 0 auto;
+}
 @font-face {
   font-family: "DejaVu Sans";
   src: url("/fonts/DejaVuSans-Bold.ttf");
@@ -40,6 +44,7 @@ header li {
   padding-left: 18px;
   padding-right: 18px;
   border-radius: 10px;
+  width: 130px;
 }
 label span {
   display: none;
@@ -85,7 +90,23 @@ label span {
     position: absolute;
   }
 }
-
+@media (max-width: 397px) {
+  header {
+    display: block;
+  }
+  label span {
+    bottom: 70px;
+    left: 280px;
+  }
+  .sign_up {
+    width: 130px;
+  }
+}
 header input {
   display: none;
+}
+.learn_more {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
 }
